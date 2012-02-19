@@ -1,0 +1,27 @@
+{
+    "name": "buster-init",
+    "version": "0.0.1",
+    "description": "Initialize Buster.js projects",
+    "homepage": "http://busterjs.org/docs/buster-init",
+    "author": {
+        "name": "Ole Christian Rynning",
+        "email": "oc@rynning.no",
+        "url": "http://oc.muda.no"
+    },
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/oc/buster-init.git"
+    },
+    "bin": {
+        "buster-init": "./bin/buster-init"
+    },
+    "dependencies": {
+        "buster-cli": ">=0.4.1",
+        "buster-core": ">=0.5.1",
+        "wrench": ">=0.3.0"
+    },
+    "devDependencies": {
+        "buster": ">=0.3",
+        "buster-test": ">=0.4"
+    }
+}
